@@ -14,3 +14,10 @@
   * give username and password (my username is ec2-user)
   * remember the username and password and login using same username and password to pubic-ip:8000
   * Congratulation, you are welcome to use it.
+#### Inside Splunk
+  * On left top side, you can see Search and Reporting. When you click it, you will see
+    * Search Bar -> for entering our searches
+    * A time range picker for the search 
+    * Links to the search documentation and tutorial
+    * Information on data splunk is indexed
+    * Menu to view and re-run past searches
