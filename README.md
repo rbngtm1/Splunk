@@ -12,3 +12,5 @@
   * tar -xvzf file   -- to untar the file
 #### cd splunk/bin and run ./splunk start
   * give username and password (my username is ec2-user)
+  * remember the username and password and login using same username and password to pubic-ip:8000
+  * Congratulation, you are welcome to use it.
