@@ -9,3 +9,5 @@
 #### Install inside amazon linux machine
   * https://www.splunk.com/en_us/download/splunk-enterprise/thank-you-enterprise.html 
   * click on above link and copy the link of download via command line 
+  * tar -xvzf file   -- to untar the file
+  
