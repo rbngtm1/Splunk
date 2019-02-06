@@ -28,4 +28,8 @@
   * You can search events , you can even add items to the search 
   * You can also add a search from field side bar on left 
   * You can use things like count by or sort and you can pipe it | for more search results.
+#### Creating reports 
+  * You can edit schedule and by selecting schelule report, we are given options on when we want to run the report and what to do with the results.
+    * You have the options to send an email or run a script when search finishes.
+    * You can view the result with statistical data or visualization or both.
     
