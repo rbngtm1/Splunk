@@ -21,3 +21,11 @@
     * Links to the search documentation and tutorial
     * Information on data splunk is indexed
     * Menu to view and re-run past searches
+#### Note: In search bar; you can run 
+  * Comparison operators like:=  !=  <   <=   >
+  * if you search by---- status=50* ; it will return every status error code like 503, 505,etc.
+  * You can use upper case Booleans like AND, OR and NOT with our search term.
+  * You can search events , you can even add items to the search 
+  * You can also add a search from field side bar on left 
+  * You can use things like count by or sort and you can pipe it | for more search results.
+    
