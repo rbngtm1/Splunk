@@ -10,4 +10,5 @@
   * https://www.splunk.com/en_us/download/splunk-enterprise/thank-you-enterprise.html 
   * click on above link and copy the link of download via command line 
   * tar -xvzf file   -- to untar the file
-  
+#### cd splunk/bin and run ./splunk start
+  * give username and password (my username is ec2-user)
