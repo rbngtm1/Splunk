@@ -1,0 +1,20 @@
+wget rpm package
+sudo su -
+rpm -i /tmp/splunk.....rpm
+vi /opt/splunk/etc/system/local/user-seed.conf
+[user_info]
+USERNAME=admin
+PASSWORD=your_password
+
+
+
+
+Configure splunk to start on boot
+
+/opt/splunk/bin/splunk enable boot-start --accept-license
+
+/opt/splunk/bin/splunk start
+
+systemctl stsart Splunkd
+
+less /opt/splunk/var/log/splunk/splunkd.log
