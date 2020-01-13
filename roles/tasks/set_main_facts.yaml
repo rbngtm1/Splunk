@@ -1,0 +1,10 @@
+- name: set splunk facts
+  set_fact:
+    splunk_url: "https://download.splunk.com/products/universalforwarder/releases/7.2.3/linux"
+    splunk_forwarder_rpm: "splunkforwarder-8.0.1-6db836e2fb9e-linux-2.6-x86_64.rpm"
+    splunk_rpm_checksum: "md5:32f0dfa8a6bab8ad50c3ec0ac7a994d4"
+    splunk_forwarder_indexer: "splunk-indexer:9997"
+    splunk_forwarder_index: "default"
+- name: set splunk rpm
+  set_fact:
+    splunk_rpm: "{{ splunk_url }}/{{ splunk_forwarder_rpm }}"

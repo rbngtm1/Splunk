@@ -1,0 +1,22 @@
+[tcpout:splunk]
+server = bla.net bla.net bla.net
+compressed = false
+
+sslCertPath = path where your script downloads the cert file
+sslRootCaPath = path where your script downloads the cert file
+sslPassword = {{ splunk_ssl_pass.stdout }}
+
+sslCommnNameToCheck = *.net
+sslVerifyServerCert = true
+useClientSSLCompression = true
+
+
+#if you are using without certificates 
+#[tcpout]
+#defaultGroup = splunk
+#disabled = false
+
+#[tcpout:splunk]
+#server = IP:9997
+
+#[tcpout-server://IP:9997]

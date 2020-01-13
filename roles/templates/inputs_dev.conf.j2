@@ -1,0 +1,13 @@
+[monitor:///var/log/tomcat/*/*]
+disabled = false
+index = theindexyouhaveinsplunkserver
+sourcetype = log4j
+_meta = ENV::DEV AppComponent::tomcat
+
+#[default]
+#[splunktcp://9997]
+#disabled = 0
+#[monitor://var/log]
+
+#blacklist = \.bz2$
+#ignoreOlderThan = 7d

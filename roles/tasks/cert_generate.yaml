@@ -1,0 +1,8 @@
+- name: Running script for splunk certs generation
+  command: ./getsecretskey_splunk.sh
+  
+- name: Include splunk task
+  include_tasks: splunk_task.yaml
+  when: (ENV == 'dev' or ENV == 'TEST')
+
+  # we are doing this, so that script will fetch the certs and write into file in the server and then run the splunk_task.yaml
