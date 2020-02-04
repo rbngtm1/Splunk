@@ -1,5 +1,4 @@
 - name: Set Main Facts
   include_tasks: set_main_facts.yaml
   
-- name: splunk tasks
-  include_tasks: splunk_task.yaml
+
