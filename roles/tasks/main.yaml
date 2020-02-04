@@ -1,0 +1,5 @@
+- name: Set Main Facts
+  include_tasks: set_main_facts.yaml
+  
+- name: service splunk tasks
+  include_tasks: splunk_service.yaml
