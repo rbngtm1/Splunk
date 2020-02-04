@@ -49,7 +49,7 @@
     echo "USERNAME = admin " >> /opt/splunkforwarder/etc/system/local/user-seed.conf
     echo "PASSWORD = changeme " >> /opt/splunkforwarder/etc/system/local/user-seed.conf
 
-- name Enable Splunk Forwarder
+- name: Enable Splunk Forwarder
   service:
     name: Splunkd
     enabled: yes
